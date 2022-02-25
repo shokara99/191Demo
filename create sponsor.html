@@ -1,0 +1,76 @@
+<html>
+<!-- Write your comments here -->
+<head>
+    <meta charset="UTF=8">
+    <meta name = "viewport" content="width"=device-width, initial scale=1.0">
+    <link href="StyleSheet.css" rel="stylesheet">
+    <title>Create Sponsor</title>
+</head>
+
+<style>
+    div {
+    margin-bottom: 20px;
+    }
+    label {
+    display: inline-block;
+    width: 150px;
+    }
+</style>
+
+<div class="nav">
+    <div class="left">
+        <img src="logo-white.png">
+    </div>
+
+    <div class="right">
+        <a href="#">Projects</a>
+        <a href="#">Sponsor a Project</a>
+    </div>
+</div>
+
+<div>
+    <button class="link"; style="color: #0064A4; font-family: Arial, Helvetica, sans-serif; font-size: 22px; border: white; background-color: white; position: relative; left: 2%;"><b>Back</b></button>
+
+    <center>
+        <header>
+            <h1 style="color: #0064A4; font-family: Arial, Helvetica, sans-serif; font-size: 26px; position: relative;"><b>Create New Sponsor</b></h1><br><br><br>
+        </header>
+
+    </center>
+
+    
+
+        <form action="/action_page.php">
+            <label for="new_sponsor_name"; style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 27%; "><b>Sponsor Name</b></label>
+            <input style = "width: 560px; height: 45; border: 2px solid #C6C6C6; position: relative; left: 30%;" type="text" id="project_name" name="project_name" value=""><br><br><br><br>
+
+            <label for="new_sponsor_team"; style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 27%"><b>Sponsor Team</b></label>
+            <input style = "width: 560px; height: 45; border: 2px solid #C6C6C6; position: relative; left: 30%;" type="text" id="project_name" name="project_name" value=""><br><br><br><br>
+
+            <label for="website_url"; style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 27%"><b>Website URL</b></label>
+            <input style = "width: 560px; height: 45; border: 2px solid #C6C6C6; position: relative; left: 30%;" type="text" id="project_name" name="project_name" value=""><br><br><br><br>
+
+            <label for="class"; style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 27%"><b>Class</b></label>
+            <select style = "width: 560px; height: 45; border: 2px solid #C6C6C6; position: relative; left: 30%;" name="class" id="class"></select><br><br><br><br>
+
+            <label for="quarter"; style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 27%"><b>Quarter</b></label>
+            <select style = "width: 560px; height: 45; border: 2px solid #C6C6C6; position: relative; left: 30%;" name="quarter" id="quarter"></select><br><br><br><br>
+
+            <label for="notes"; style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 27%; vertical-align: top;"><b>Notes</b></label>
+            <textarea style = "width: 560px; height: 200; border: 2px solid #C6C6C6; position: relative; left: 30%;" id="notes" name="notes"></textarea><br><br>
+
+            <label for="myfile"; style="color: #0064A4; font-family: Arial, Helvetica, sans-serif; font-size: 18px; position: relative; left: 38.5%;"><b>Attach File(s):</b></label>
+            <input style= "position: relative; left: 38.5%;" type="file" id="myfile" name="myfile"><br><br><br><br>
+
+            <center>
+
+            <input type="submit"; style="color: white; font-family: Arial, Helvetica, sans-serif Semibold; font-size: 26px; background-color: #0064A4; 
+                width: 280; height: 60; border: white; border-radius: 5;" value="Create">
+
+            </center>
+
+        </form>
+
+    </div>
+
+</html>
